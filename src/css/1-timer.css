@@ -17,14 +17,15 @@ color: #2e2f42;
 .field{
     display: flex;
     flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .timer{
     display: flex;
     flex-direction: row;
     gap: 24px; 
-    margin-left: 50px;
+ 
 }
 
 #datetime-picker{ padding-left: 8px;
@@ -39,8 +40,7 @@ border: 1px solid #808080;
     height: 40px;
    background: #fff;
    margin-bottom: 32px;
-   margin-top: 50px;
-   margin-left: 50px;
+  
    outline: none;
    transition: border 150ms;
 }

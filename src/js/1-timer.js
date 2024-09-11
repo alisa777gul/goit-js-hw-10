@@ -21,7 +21,8 @@ const options = {
     if (userSelectedDate - Date.now() <= 0) {
      iziToast.error({
         title: 'Error',
-        message: 'Please choose a date in the future',
+       message: 'Please choose a date in the future',
+           position: 'topRight'
       });
       buttonStart.disabled = true;
     } else {
@@ -73,6 +74,7 @@ function startCountdown(endDay) {
       iziToast.success({
         title: 'Countdown Finished',
         message: 'The countdown has reached zero!',
+           position: 'topRight'
       });
 
       return;

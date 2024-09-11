@@ -23,11 +23,30 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  position: absolute;
+  padding-top: 50px;
 }
 
 main {
   flex-grow: 1;
+  margin: 0 auto;
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+
+.button-link{
+  position: absolute;
+  top: 50px; 
+  left: 900px;
+  border: 1px solid rgb(174, 153, 125);
+  padding:8px;
+ border-radius: 4px;
+ transition: background-color 15ms;
+}
+
+.button-link:hover,
+.button-link:focus{
+  background-color: rgb(128, 160, 149);
 }
