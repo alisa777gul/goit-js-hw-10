@@ -39,7 +39,7 @@ main:has(.back-link) {
 .button-link{
   position: absolute;
   top: 50px; 
-  left: 900px;
+  right: 300px;
   border: 1px solid rgb(174, 153, 125);
   padding:8px;
  border-radius: 4px;
